@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="ball" style="
+    width:75px;
+    height:75px;
+    left:0px;
+    top:0px;
+    border-radius: 50%;
+    background-color: rgb(118, 19, 231);
+    position:relative;" ></div>
+
+    <script>
+        var velocity=100;
+        var xmin=0
+        var xmax=400;
+        var ymin=0;
+        var ymax=400;
+        var ball=document.getElementById("ball")
+
+        function moveball(){
+            if(xmin<400 && ymin<400){
+                xmin=xmin+velocity;
+                ymin=ymin+velocity;
+                ball.style.left=xmin+'px';
+                ball.style.top=ymin+'px';
+            }
+            else if(xmax>0 && ymax>0){
+                xmax=xmax-velocity;
+                ymax=ymax-velocity;
+                ball.style.left=xmax+'px'
+                ball.style.top=ymax+'px'
+            }
+            else{
+                xmin=0;
+                xmax=400;
+                ymin=0;
+                ymax=400;
+            }
+        }
+        setInterval(moveball,500)
+    </script>
+
+</body>
+</html>
