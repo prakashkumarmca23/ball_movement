@@ -1,6 +1,6 @@
 # ball_movement
 
-This web page showcases an eye-catching animation with a ball that gracefully traverses the screen, gracefully reversing direction upon reaching the square boundary, resulting in a captivating and perpetual visual display.It offers a dynamic and engaging demonstration of HTML, CSS, and JavaScript integration for creating interactive web content.
+This web page creates a visually appealing moving ball within a square boundary. The ball moves diagonally, bouncing off the boundaries when it reaches them, creating a perpetual animation..It offers a dynamic and engaging demonstration of HTML, CSS, and JavaScript integration for creating interactive web content.
 
 ## Steps to Run this Project
 Open the github link to run the ballmovement program
