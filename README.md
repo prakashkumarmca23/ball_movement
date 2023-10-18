@@ -13,5 +13,4 @@ To run the ball_movement program, follow these steps:
 Several improvements can be implemented to enhance the ball_movement project:
 - Add user controls to enable users to change the direction and speed of the moving ball.
 - Implement collision detection to create interactive responses when the ball collides with the boundaries.
-- Integrate additional shapes or objects to interact with the moving ball, providing a more dynamic and engaging experience.
-- Optimize the animation performance to ensure smooth rendering and seamless movement, even on devices with lower processing power.
+
